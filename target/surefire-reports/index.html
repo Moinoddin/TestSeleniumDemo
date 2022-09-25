@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,25 +21,26 @@
      -->
   </head>
 
-  <body>    <div class="top-banner-root">
+  <body>
+    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
-      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-TestSelenium" class="navigator-link">
-              <span class="suite-name border-failed">TestSelenium</span>
+            <a href="#" class="navigator-link" panel-name="suite-TestSelenium">
+              <span class="suite-name border-passed">TestSelenium</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-TestSelenium" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestSelenium">
                     <span>[unset file name]</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-TestSelenium" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="testlist-TestSelenium">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-TestSelenium" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="group-TestSelenium">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-TestSelenium" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="times-TestSelenium">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-TestSelenium" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="reporter-TestSelenium">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-TestSelenium" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestSelenium">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-TestSelenium" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="chronological-TestSelenium">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,21 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-TestSelenium" class="hide-methods failed suite-TestSelenium"> (hide)</a> <!-- hide-methods failed suite-TestSelenium -->
-                      <a href="#" panel-name="suite-TestSelenium" class="show-methods failed suite-TestSelenium"> (show)</a> <!-- show-methods failed suite-TestSelenium -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSelenium" class="hide-methods passed suite-TestSelenium"> (hide)</a> <!-- hide-methods passed suite-TestSelenium -->
+                      <a href="#" panel-name="suite-TestSelenium" class="show-methods passed suite-TestSelenium"> (show)</a> <!-- show-methods passed suite-TestSelenium -->
                     </span>
-                    <div class="method-list-content failed suite-TestSelenium">
+                    <div class="method-list-content passed suite-TestSelenium">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestSelenium" title="TestSelenium" class="method navigator-link" hash-for-method="lunchDriver">lunchDriver</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSelenium" title="TestSelenium" hash-for-method="lunchDriver">lunchDriver</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-TestSelenium -->
+                    </div> <!-- method-list-content passed suite-TestSelenium -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,9 +119,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-TestSelenium" class="panel TestSelenium">
-          <div class="suite-TestSelenium-class-failed">
+          <div class="suite-TestSelenium-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">TestSelenium</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -129,34 +130,10 @@
                   <a name="lunchDriver">
                   </a> <!-- lunchDriver -->
                   <span class="method-name">lunchDriver</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=105.0.5195.127)
-Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
-System info: host: &apos;DESKTOP-HF0RCE0&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [abf56734843ed25d0235beb6f047e96a, findElement {using=xpath, value=//a[@id=&apos;nav-global-location-popover-link&apos; and @class=&apos;nav-a nav-a-2 a-popover-trigger a-declarative nav-progressive-attribute&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Manjunath Sudhakar...}, goog:chromeOptions: {debuggerAddress: localhost:60276}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60276/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: abf56734843ed25d0235beb6f047e96a
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at TestSelenium.lunchDriver(TestSelenium.java:33)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 41 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestSelenium-class-failed -->
+          </div> <!-- suite-TestSelenium-class-passed -->
         </div> <!-- panel TestSelenium -->
         <div panel-name="test-xml-TestSelenium" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -165,8 +142,8 @@ Session ID: abf56734843ed25d0235beb6f047e96a
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;TestSelenium&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;TestSelenium&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TestSelenium&quot;/&gt;
     &lt;/classes&gt;
@@ -212,12 +189,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'lunchDriver')
 data.setCell(0, 2, 'TestSelenium')
-data.setCell(0, 3, 9075);
+data.setCell(0, 3, 36148);
 window.suiteTableData['TestSelenium']= { tableData: data, tableDiv: 'times-div-TestSelenium'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
               <div id="times-div-TestSelenium">
               </div> <!-- times-div-TestSelenium -->
             </div> <!-- times-div -->
@@ -245,8 +222,6 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">TestSelenium</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">lunchDriver</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
